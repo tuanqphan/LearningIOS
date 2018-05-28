@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5523F2572093962300ED10A5 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523F2562093962300ED10A5 /* GameTableViewController.swift */; };
+		552E8B3120BC6EFC00277DCD /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552E8B3020BC6EFB00277DCD /* Container.storyboard */; };
 		553BF2B720A219BD00BAB6FB /* Tap1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2B620A219BD00BAB6FB /* Tap1ViewController.swift */; };
 		553BF2B920A219CE00BAB6FB /* Tap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2B820A219CE00BAB6FB /* Tap2ViewController.swift */; };
 		553BF2BB20A234A200BAB6FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2BA20A234A200BAB6FB /* FirstViewController.swift */; };
 		553BF2BD20A264DD00BAB6FB /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2BC20A264DD00BAB6FB /* MyCollectionViewController.swift */; };
 		553BF2BF20A2653A00BAB6FB /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2BE20A2653A00BAB6FB /* MyCollectionViewCell.swift */; };
 		554BF2C220A3BB1100E56AD2 /* Gesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554BF2C020A3BB1100E56AD2 /* Gesture.storyboard */; };
-		554BF2C420A3BD6500E56AD2 /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554BF2C320A3BD6500E56AD2 /* Container.storyboard */; };
 		5591053B2085513500F82E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591053A2085513500F82E5D /* AppDelegate.swift */; };
 		5591053D2085513500F82E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5591053C2085513500F82E5D /* ViewController.swift */; };
 		559105402085513500F82E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5591053E2085513500F82E5D /* Main.storyboard */; };
@@ -49,13 +49,13 @@
 
 /* Begin PBXFileReference section */
 		5523F2562093962300ED10A5 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
+		552E8B3020BC6EFB00277DCD /* Container.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Container.storyboard; path = ../../SampleApp_copy/SampleApp/Container.storyboard; sourceTree = "<group>"; };
 		553BF2B620A219BD00BAB6FB /* Tap1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap1ViewController.swift; sourceTree = "<group>"; };
 		553BF2B820A219CE00BAB6FB /* Tap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap2ViewController.swift; sourceTree = "<group>"; };
 		553BF2BA20A234A200BAB6FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		553BF2BC20A264DD00BAB6FB /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		553BF2BE20A2653A00BAB6FB /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		554BF2C120A3BB1100E56AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SampleApp/Base.lproj/Gesture.storyboard; sourceTree = "<group>"; };
-		554BF2C320A3BD6500E56AD2 /* Container.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Container.storyboard; path = ../SampleApp/SampleApp/Container.storyboard; sourceTree = "<group>"; };
 		559105372085513400F82E5D /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5591053A2085513500F82E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5591053C2085513500F82E5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		5591052E2085513400F82E5D = {
 			isa = PBXGroup;
 			children = (
-				554BF2C320A3BD6500E56AD2 /* Container.storyboard */,
+				552E8B3020BC6EFB00277DCD /* Container.storyboard */,
 				554BF2C020A3BB1100E56AD2 /* Gesture.storyboard */,
 				559105392085513500F82E5D /* SampleApp */,
 				5591054E2085513500F82E5D /* SampleAppTests */,
@@ -291,7 +291,7 @@
 				559105452085513500F82E5D /* LaunchScreen.storyboard in Resources */,
 				559105422085513500F82E5D /* Assets.xcassets in Resources */,
 				559105402085513500F82E5D /* Main.storyboard in Resources */,
-				554BF2C420A3BD6500E56AD2 /* Container.storyboard in Resources */,
+				552E8B3120BC6EFC00277DCD /* Container.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
