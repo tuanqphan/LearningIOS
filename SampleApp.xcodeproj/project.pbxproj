@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5523F2572093962300ED10A5 /* GameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523F2562093962300ED10A5 /* GameTableViewController.swift */; };
-		552E8B3120BC6EFC00277DCD /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552E8B3020BC6EFB00277DCD /* Container.storyboard */; };
-		552E8B3520BC717500277DCD /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552E8B3420BC717500277DCD /* Container.storyboard */; };
 		553BF2B720A219BD00BAB6FB /* Tap1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2B620A219BD00BAB6FB /* Tap1ViewController.swift */; };
 		553BF2B920A219CE00BAB6FB /* Tap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2B820A219CE00BAB6FB /* Tap2ViewController.swift */; };
 		553BF2BB20A234A200BAB6FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553BF2BA20A234A200BAB6FB /* FirstViewController.swift */; };
@@ -29,6 +27,7 @@
 		5595042420928443007C2473 /* PlayerDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595042320928443007C2473 /* PlayerDetailsTableViewController.swift */; };
 		559D64E220A0C7790021CD10 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D64E120A0C7790021CD10 /* ContainerViewController.swift */; };
 		559D64E420A0DC430021CD10 /* SearchableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D64E320A0DC430021CD10 /* SearchableTableViewController.swift */; };
+		55B567D520BC74510069D098 /* Container.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B567D420BC74510069D098 /* Container.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +49,6 @@
 
 /* Begin PBXFileReference section */
 		5523F2562093962300ED10A5 /* GameTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewController.swift; sourceTree = "<group>"; };
-		552E8B3020BC6EFB00277DCD /* Container.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Container.storyboard; path = ../../SampleApp_copy/SampleApp/Container.storyboard; sourceTree = "<group>"; };
-		552E8B3420BC717500277DCD /* Container.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Container.storyboard; path = ../../SampleApp_copy/SampleApp/Container.storyboard; sourceTree = "<group>"; };
 		553BF2B620A219BD00BAB6FB /* Tap1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap1ViewController.swift; sourceTree = "<group>"; };
 		553BF2B820A219CE00BAB6FB /* Tap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap2ViewController.swift; sourceTree = "<group>"; };
 		553BF2BA20A234A200BAB6FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +74,7 @@
 		5595042320928443007C2473 /* PlayerDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsTableViewController.swift; sourceTree = "<group>"; };
 		559D64E120A0C7790021CD10 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		559D64E320A0DC430021CD10 /* SearchableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableTableViewController.swift; sourceTree = "<group>"; };
+		55B567D420BC74510069D098 /* Container.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Container.storyboard; path = SampleApp/Container.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +105,7 @@
 		5591052E2085513400F82E5D = {
 			isa = PBXGroup;
 			children = (
-				552E8B3020BC6EFB00277DCD /* Container.storyboard */,
-				552E8B3420BC717500277DCD /* Container.storyboard */,
+				55B567D420BC74510069D098 /* Container.storyboard */,
 				554BF2C020A3BB1100E56AD2 /* Gesture.storyboard */,
 				559105392085513500F82E5D /* SampleApp */,
 				5591054E2085513500F82E5D /* SampleAppTests */,
@@ -294,8 +291,7 @@
 				559105452085513500F82E5D /* LaunchScreen.storyboard in Resources */,
 				559105422085513500F82E5D /* Assets.xcassets in Resources */,
 				559105402085513500F82E5D /* Main.storyboard in Resources */,
-				552E8B3520BC717500277DCD /* Container.storyboard in Resources */,
-				552E8B3120BC6EFC00277DCD /* Container.storyboard in Resources */,
+				55B567D520BC74510069D098 /* Container.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
